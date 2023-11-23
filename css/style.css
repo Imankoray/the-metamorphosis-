@@ -1,0 +1,661 @@
+/* Setting the margin and the height of the body.
+100vh is 100% of the viewport so this sets the height of the body to the height of the viewport screen */
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+/* This container has the entire story within it and has a set background colour, width and height */
+#container {
+    background-color: antiquewhite;
+    width: 1400px;
+    height: 5000vh;
+
+}
+
+/* Title properties to set the font, weight, size and where it sits on the page. */
+#title {
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700px
+}
+
+#title {
+    font-size: 200px;
+    margin: 0%;
+    text-align: center;
+    margin-top: -200px;
+}
+
+/* this is for the second line of the title, sets the font, weight, size and where it sits on the page.*/
+#title2 {
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700px
+}
+
+#title2 {
+    margin-top: -50px;
+    margin-left: 600px;
+    font-size: 350px;
+    margin: 0%;
+    text-align: center;
+    padding: -150px;
+}
+
+/* Properties for the bug images to set their sizes */
+.bug {
+    width: 350px;
+    height: 400px; 
+}
+
+/* Hover traniston on all the bugs to make them move when the mouse hovers */
+#bug1:hover {
+    transition: transform 0.2s;
+    transform: rotate(55deg);
+}
+
+#bug2:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+#bug3:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+#bug4:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+#bug5:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+#bug6:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+#bug7:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+#bug8:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+#bug9:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+#bug10:hover {
+    transition: transform 0.2s;
+    transform: rotate(10deg);
+}
+
+
+/* Properties for the bug images to set where they are on the page */
+#bug1 {
+
+    margin-bottom: -50px;
+    transform: rotate(45deg);
+    margin-left: 100px;
+}
+
+#bug2 {
+    margin-left: 500px;
+    margin-bottom: -50px;
+    transform: rotate(-45deg);
+}
+
+#bug3 {
+
+    margin-bottom: -50px;
+    transform: rotate(45deg);
+}
+
+#bug4 {
+
+    margin-left: 600px;
+    margin-bottom: -50px;
+    transform: rotate(-45deg);
+}
+
+#bug5 {
+
+    margin-bottom: -50px;
+    transform: rotate(45deg);
+    margin-top: 240px;
+}
+
+#bug6 {
+
+    margin-left: 600px;
+    margin-bottom: -50px;
+    transform: rotate(-45deg);
+}
+
+#bug7 {
+
+    margin-bottom: -50px;
+    margin-right: 50px;
+    transform: rotate(45deg);
+    margin-top: 240px;
+}
+
+#bug8 {
+    margin-top: -150px;
+    transform: rotate(45deg);
+}
+
+#bug9 {
+    margin-left: 500px;
+    margin-top: -400px;
+}
+
+#bug10 {
+
+    margin-left: 600px;
+    transform: rotate(-45deg);
+}
+
+#bug11 {
+    margin-top: 50px;
+    margin-left: 700px;
+    width: 90px;
+    height: 90px;
+}
+
+/* First paragraph properties for the size, font and placing */
+#para11 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    vertical-align: middle;
+    /*aligns the text in the middle*/
+    width: 500px;
+    margin-left: 200px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+/* Second paragraph properties for the size, font and placing */
+#para12 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    vertical-align: middle;
+    width: 500px;
+    display: inline-flex;
+    margin-left: 800px;
+    margin-top: -400px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+/* Frame image properties on sizes and where it is on the page */
+#frame {
+    height: 800px;
+    width: 700px;
+    margin-top: -400px;
+    margin-left: 60px;
+}
+
+/* Properties for the bug images to set where they are on the page */
+#eye1 {
+    width: 500px;
+    margin-left: -200px;
+    margin-bottom: -300px;
+}
+
+#eye2 {
+    width: 500px;
+    margin-left: -200px;
+    margin-bottom: -600px;
+}
+
+#eye3 {
+    width: 500px;
+    margin-left: -200px;
+    margin-bottom: -800px;
+}
+
+#eye4 {
+    width: 500px;
+    margin-left: -200px;
+    margin-bottom: -400px;
+}
+
+#eye5 {
+    width: 500px;
+    margin-left: -200px;
+    margin-bottom: -550px;
+}
+
+#eye6 {
+    width: 500px;
+    margin-left: -200px;
+    margin-bottom: -330px;
+}
+
+#eye7 {
+    width: 500px;
+    margin-left: 400px;
+    margin-bottom: -900px;
+}
+
+#eye8 {
+    width: 500px;
+    margin-left: -200px;
+    margin-bottom: -770px;
+}
+
+#eye9 {
+    width: 500px;
+    margin-left: 260px;
+    margin-bottom: -560px;
+}
+
+#eye10 {
+    width: 500px;
+    margin-left: -200px;
+    margin-bottom: -1000px;
+}
+
+/* third paragraph properties for the size, font and placing */
+#para13 {
+    margin-left: 60px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 50px;
+    line-height: 68px;
+    margin-right: -50px;
+    text-align: left;
+}
+
+/* Textbox class for the second paragraph to apply the same properties */
+.textbox {
+    margin-top: -500px;
+    font-size: 70px;
+    height: 150px;
+    letter-spacing: 0.69px;
+    line-height: 70px;
+    vertical-align: middle;
+    width: 500px;
+    margin-left: 150px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+/* Class for the hover tranisition on the window image */
+.fadein img {
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+.fadein img:hover {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+/* Properties for the window image */
+#window1 {
+    margin-left: 700px;
+    margin-top: 1000px;
+}
+
+/* class for the second quote to apply the same properties to each word*/
+.quote2 {
+    font-size: 150px;
+    line-height: 57px;
+    text-align: center;
+    font-weight: 600px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+#word11 {
+    margin-top: 700px;
+    font-weight: 500px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+#word14 {
+    padding: 30px;
+    font-size: 200px;
+    font-weight: 500px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+/* transition state on the last word
+this gives the word different properties when you hover on it */
+#word14:hover {
+    transition: ease-in 0.25s;
+    color: #6e9ae0;
+}
+
+/* Properties for first background image  */
+#roombg {
+    height: 1400px;
+    width: 1400px;
+    background-image: url(../room\ copy.png);
+    background-repeat: no-repeat;
+    /*the background image will not be repeated when scrolling*/
+    background-position: center;
+    background-size: cover;
+    /*scales the images to cover the entire screen*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*these are the properies that give it the scorlling parallax. the background image will remain in a fixed position when scrolling*/
+}
+
+/* Class for quote to give all the words the same properties */
+.quote1 {
+    font-size: 180px;
+    height: 85px;
+    letter-spacing: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0%;
+    padding: 50px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-weight: 600;
+}
+
+/* Ids for each word to set their individual properties  */
+#word1 {
+    width: 310px;
+    margin-left: 150px;
+}
+
+#word2 {
+    width: 389px;
+    margin-left: 50px;
+}
+
+#word3 {
+    width: 201px;
+    margin-left: 200px;
+}
+
+#word4 {
+    width: 418.453125px;
+    margin-left: 250px;
+}
+
+/* class for quote to give all the words the same properties */
+.textbox2 {
+    display: block;
+    font-size: 40px;
+    font-stretch: normal;
+    height: 200px;
+    line-height: 50px;
+    max-width: 900px;
+    text-align: center;
+    width: 2000px;
+    margin-left: 240px;
+}
+
+/* Fifth paragraph properties for the size, font and placing */
+#para15 {
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 27px;
+    line-height: 44px;
+
+}
+
+/* sixth paragraph properties for the size, font and placing */
+#para16 {
+    margin-top: 500px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 27px;
+    line-height: 44px;
+}
+
+/* setting properties for the money gif */
+#money {
+    margin-top: 600px;
+    width: 1800px;
+    height: 160px;
+    margin-left: -50px;
+}
+
+/* class for textbox to give them the properties */
+.textbox3 {
+    background-color: #000000;
+    margin-left: 270px;
+    height: 400px;
+    border: solid rgb(255, 255, 255);
+    margin-top: 150px;
+    rotate: 5deg;
+    opacity: 0;
+    align-items: center;
+    max-width: 900px;
+    vertical-align: middle;
+
+}
+
+/* seventh paragraph properties for the size, font and placing */
+#para17 {
+    font-size: 30px;
+    padding: 25px;
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* eighth paragraph properties for the size, font and placing */
+#para18 {
+    font-size: 30px;
+    padding: 30px;
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 17px;
+    line-height: 38px;
+}
+
+/* ninth paragraph properties for the size, font and placing */
+#para19 {
+    font-size: 25px;
+    padding: 25px;
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 17px;
+    line-height: 38px;
+}
+
+#container4 {
+    margin-top: -400px;
+    rotate: -5deg;
+    width: 950px;
+}
+
+#container5 {
+    margin-top: -400px;
+    rotate: 5deg;
+    width: 950px;
+}
+
+
+/* tenth paragraph properties for the size, font and placing */
+#para20 {
+    display: block;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+    margin-block-end: 16px;
+    margin-top: 150px;
+    width: 500px;
+    position: relative;
+    margin-left: 400px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+/* eleventh paragraph properties for the size, font and placing */
+#para21 {
+    display: block;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+    margin-block-end: 16px;
+    margin-top: 25px;
+    width: 500px;
+    position: relative;
+    margin-left: 400px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+#quote3 {
+    font-size: 180px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 85px;
+    letter-spacing: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 150px;
+    padding: 50px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-weight: 600px;
+}
+
+#door2 {
+    margin-left: 500px;
+}
+
+#instruction {
+    margin-left: 640px;
+    margin-top: -10px;
+    font-size: 17px;
+}
+
+/* twelth paragraph properties for the size, font and placing */
+#para22 {
+    display: block;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+    margin-block-end: 16px;
+    margin-top: 150px;
+    width: 500px;
+    position: relative;
+    margin-left: 400px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}

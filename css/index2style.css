@@ -1,0 +1,47 @@
+
+
+/* Setting the margin and the height of the body.
+100vh is 100% of the viewport so this sets the height of the body to the height of the viewport screen */
+body{
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+}
+
+#quote4{
+    margin-top: 150px; 
+    display: block;
+    font-size: 120px;
+    height: 380px;
+    color: white;
+    align-items: left;
+
+}
+
+#speechmark{
+    margin-left: 250px;
+margin-top: 200px;
+    width: 1000px;
+}
+
+h3{
+    font-size: 15px;
+    color: beige;
+    margin-left: 700px;
+    margin-top: -50px;
+    width: 40px;
+    display: inline;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+font-family: 'Foldit', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Josefin Slab', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sometype Mono', monospace;
+}
+
+h3:hover{
+   transition: ease-in 0.3s;
+   color: grey;
+}
+

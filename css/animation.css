@@ -1,0 +1,74 @@
+
+
+.left-to-right {
+    /* animation left to right is linking the selected elements to the keyframes called left to right just above */
+    animation: lefttoright;
+    /* animation duration: 5s tells css that we want the animation to last for 5 seconds */
+    animation-duration: 5s;
+    /* animation fill mode forwards tells css that once the animation is over the element should stay on
+    The last animation frame instead of going back to whatever style it had before 
+    In this case we are using it to avoid elements recovering opacity */
+    animation-fill-mode: forwards;
+}
+
+/* gives the observable class an opacity of 0 */
+.observable {
+    opacity: 0;
+}
+/* gives the appear class an opacity of 0 */
+.appear {
+    opacity: 0;
+}
+
+/* gives class bottom-to-top eyes animation from keyframes, which will last 0.5s */
+.bottom-to-top {
+    animation: eyes 0.5s;
+    /* Once the animation is finished, leave the images on the screen */
+    animation-fill-mode: forwards;
+}
+
+/* bottom-to-top class gives bottomtotop animation from keyframes 
+the animation will last 1 second
+animation fill mode: forwards means the animation will stay there once over and wont disappear when the animation is over */
+.bottom-to-top {
+    animation: bottomtotop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+/* key frames are anything that makes something go from one state to another state */
+@keyframes eyes {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* this keyframe is declaring what bottomtop will do. in this instance, it will translate an image or text from the bottom of the screen with an opacity of 0.5 to where its meant to be with an opacity of one */
+@keyframes bottomtotop {
+    from {
+        transform: translateY(200px);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+/* in this instance, it will translate an image or text from one side of the screen with an opacity of 0.5 to where its meant to be with an opacity of one */
+@keyframes lefttoright {
+    from {
+        transform: translateX(-500px);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(1500px);
+        opacity: 2;
+    }
+}
