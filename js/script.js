@@ -85,26 +85,4 @@ animatorButton.onclick = (event) => {
 
 
 
-     
-// function observeFunc(entries){
-//     entries.forEach((entry) => {
-// if (entry.isIntersecting){
-//     const {target} = entry
-//     if(
-//         target.id === "quote3"
-//     ){
-//         console.log("observed")
-//         target.classList.add("left-to-right")
-//     } else {
-//         target.classList.remove("left-to-right")
-//     }
-// }
-//     })
-// }
-
-//observer.observe(target);
-
-//const targetList = document.getElementsByClassName("appear");
-//const observer2 = new IntersectionObserver(observeFunc, options);
-
-//observer2.observe(target)
+    

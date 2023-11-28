@@ -7,9 +7,9 @@ body {
 
 /* This container has the entire story within it and has a set background colour, width and height */
 #container {
-    background-color: antiquewhite;
-    width: 1400px;
-    height: 5000vh;
+    background-color: #ffd9a19b;
+    width: 100vw;
+    height: auto;
 
 }
 
@@ -20,15 +20,15 @@ body {
     font-family: 'Josefin Slab', serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Sometype Mono', monospace;
-    font-family: 'Tangerine', cursive;
+
     font-weight: 700px
 }
 
 #title {
-    font-size: 200px;
+    font-size: 150px;
     margin: 0%;
     text-align: center;
-    margin-top: -200px;
+    margin-top: -50px
 }
 
 /* this is for the second line of the title, sets the font, weight, size and where it sits on the page.*/
@@ -38,23 +38,21 @@ body {
     font-family: 'Josefin Slab', serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Sometype Mono', monospace;
-    font-family: 'Tangerine', cursive;
     font-weight: 700px
 }
 
 #title2 {
-    margin-top: -50px;
     margin-left: 600px;
-    font-size: 350px;
+    font-size: 150px;
     margin: 0%;
     text-align: center;
-    padding: -150px;
+    padding: 0px;
 }
 
 /* Properties for the bug images to set their sizes */
 .bug {
-    width: 350px;
-    height: 400px; 
+    width: 200px;
+    height: 250px; 
 }
 
 /* Hover traniston on all the bugs to make them move when the mouse hovers */
@@ -113,7 +111,7 @@ body {
 #bug1 {
 
     margin-bottom: -50px;
-    transform: rotate(45deg);
+    transform: rotate(97deg);
     margin-left: 100px;
 }
 
@@ -124,14 +122,15 @@ body {
 }
 
 #bug3 {
-
+    margin-left: 200px;
+margin-top: -50px;
     margin-bottom: -50px;
     transform: rotate(45deg);
 }
 
 #bug4 {
 
-    margin-left: 600px;
+    margin-left: 900px;
     margin-bottom: -50px;
     transform: rotate(-45deg);
 }
@@ -163,10 +162,6 @@ body {
     transform: rotate(45deg);
 }
 
-#bug9 {
-    margin-left: 500px;
-    margin-top: -400px;
-}
 
 #bug10 {
 
@@ -337,7 +332,7 @@ body {
 
 /* Properties for the window image */
 #window1 {
-    margin-left: 700px;
+    margin-left: 650px;
     margin-top: 1000px;
 }
 
@@ -366,6 +361,27 @@ body {
     font-family: 'Sometype Mono', monospace;
 }
 
+.instruction{
+    font-size: 15px;
+    color: grey;
+}
+
+#instruction1{
+    margin-top: -150px;
+    margin-left: 200px;
+}
+
+#instruction2{
+margin-left: 675px;
+font-size: 30px;
+
+  
+}
+#instruction3{
+    margin-left:650px;
+    font-size: 22px;
+}
+
 #word14 {
     padding: 30px;
     font-size: 200px;
@@ -387,13 +403,13 @@ this gives the word different properties when you hover on it */
 
 /* Properties for first background image  */
 #roombg {
-    height: 1400px;
-    width: 1400px;
-    background-image: url(../room\ copy.png);
+    height: auto;
+    width: auto; 
+     background-image: url(../images/bedbug.gif); 
     background-repeat: no-repeat;
     /*the background image will not be repeated when scrolling*/
-    background-position: center;
-    background-size: cover;
+     background-position: right; 
+    background-size: contain;
     /*scales the images to cover the entire screen*/
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -658,4 +674,25 @@ this gives the word different properties when you hover on it */
     font-family: 'Josefin Slab', serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Sometype Mono', monospace;
+}
+
+#para23 {
+    display: block;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+    margin-block-end: 16px;
+    margin-top: 150px;
+    width: 500px;
+    position: relative;
+    margin-left: 400px;
+    font-weight: 400px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Foldit', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    margin-bottom: 400px;
 }

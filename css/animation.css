@@ -50,7 +50,7 @@ animation fill mode: forwards means the animation will stay there once over and 
 /* this keyframe is declaring what bottomtop will do. in this instance, it will translate an image or text from the bottom of the screen with an opacity of 0.5 to where its meant to be with an opacity of one */
 @keyframes bottomtotop {
     from {
-        transform: translateY(200px);
+        transform: translateY(150px);
         opacity: 0.5;
     }
 

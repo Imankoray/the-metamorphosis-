@@ -1,6 +1,6 @@
 
 const button = document.getElementById("window1");
-const audio1 = document.getElementById("rain")
+const audio1 = document.getElementById("rain");
 
 window1.onclick = (event) => {
     if (audio1.paused == true) {
